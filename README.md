@@ -6,7 +6,7 @@ This is a simple Todo app built using React and Vite, providing basic functional
 
 ## Contact - Contact Me ( LinkedIn // Mail )
 
-For questions or feedback about the Todo app, feel free to contact me at [abhiabhishektr@example.com](mailto:abhiabhishektr@example.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/abhiabhishektr/).
+For questions or feedback about the Todo app, feel free to contact me at [abhiabhishektr@example.com](mailto:abhiabhishektr@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/abhiabhishektr/).
 
 
 ## Features
@@ -69,4 +69,4 @@ Check out the live demo of the Todo app [here](#).
 
 ## Contact - Contact Me ( LinkedIn // Mail )
 
-For questions or feedback about the Todo app, feel free to contact me at [abhiabhishektr@example.com](mailto:abhiabhishektr@example.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/abhiabhishektr/).
+For questions or feedback about the Todo app, feel free to contact me at [abhiabhishektr@example.com](mailto:abhiabhishektr@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/abhiabhishektr/).
