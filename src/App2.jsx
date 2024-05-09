@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 
 const TodoList = () => {
@@ -5,7 +6,7 @@ const TodoList = () => {
     const [inputValue, setInputValue] = useState('');
     const [editIndex, setEditIndex] = useState(null);
     const [editValue, setEditValue] = useState('');
-    const [error, setError] = useState('');
+    const [error, setError] = useState(false); // Changed error state to boolean
 
     const handleChange = (e) => {
         setInputValue(e.target.value);
@@ -16,16 +17,14 @@ const TodoList = () => {
     };
 
     const handleSubmit = () => {
-
         if(inputValue.trim()===''){
-            setError('error')
-        }else{
-            setError('')
-        }
-
-        if (inputValue.trim() !== '') {
+            setError(true); // Set error to true if inputValue is empty
+        } else if (todos.some(todo => new RegExp(`^${inputValue}$`, 'i').test(todo))) {
+            setError(true); // Set error to true if inputValue already exists
+        } else {
             setTodos([...todos, inputValue]);
             setInputValue('');
+            setError(false); // Reset error state
         }
     };
 
@@ -60,8 +59,8 @@ const TodoList = () => {
                 placeholder="Enter a todo"
             />
             <button onClick={handleSubmit}>Add Todo</button>
+            {error && <p>Same or vacant  .</p>} {/* Display error message based on error state */}
             <ul>
-            {error&&<p>{error}</p>}
                 {todos.map((todo, index) => (
                     <li key={index}>
                         {editIndex === index ? (
