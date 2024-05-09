@@ -1,7 +1,13 @@
 
-### React Todo App
+# React Todo App
 
 This is a simple Todo app built using React and Vite, providing basic functionality for managing a list of todos.
+
+
+## Contact - Contact Me ( LinkedIn // Mail )
+
+For questions or feedback about the Todo app, feel free to contact me at [abhiabhishektr@example.com](mailto:abhiabhishektr@example.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/abhiabhishektr/).
+
 
 ## Features
 
